@@ -14,7 +14,7 @@ Ateliê Doce e Arte é um aplicativo para gerenciar a venda de doces
 - Login e Cadastro de Usuário
 
 ## Como executar?
-**Importante:** É necessário ter o composer, NodeJs e o PHP 8.1.28 ou superior instalados.
+**Importante:** É necessário ter o composer, NodeJs e o PHP ^7.3 ou ^8.0.
 - Abra o terminal na pasta api e rode o seguinte comando: 
 ``` composer install ```
 - Apos isso, configure o .env e execute o comando para criar as tabelas: 
