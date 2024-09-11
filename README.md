@@ -5,7 +5,7 @@ Ateliê Doce e Arte é um aplicativo para gerenciar a venda de doces
 ## Detalhes
 | Tecnologia |
 |---|
-| Laravel 10 REST API
+| Laravel 8 REST API
 | React Native
 
 ## Resumo das Funcionalidaedes
@@ -17,8 +17,10 @@ Ateliê Doce e Arte é um aplicativo para gerenciar a venda de doces
 **Importante:** É necessário ter o composer, NodeJs e o PHP 8.1.28 ou superior instalados.
 - Abra o terminal na pasta api e rode o seguinte comando: 
 ``` composer install ```
+- Apos isso, configure o .env e execute o comando para criar as tabelas: 
+``` php artisan migrate ```
 - Após isso execute o comando para rodar a aplicação:
-``` php artisan serve ```
+``` php artisan serve --host=0.0.0.0 --port=8000 ```
 
 - Abra o terminal na pasta doceria e rode o seguinte comando: 
 ``` npm install ```
